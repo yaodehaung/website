@@ -1,0 +1,17 @@
+.owl-width{
+  width: 80% !important;
+  margin: 0 auto;
+  .item{
+
+    img{
+      width:40%;
+      height: 50%;
+      display: inline-block;
+      margin-bottom: 64px;
+    }
+    .jpg-sentence{
+      display: inline-block;
+      width: 55%;
+    }
+  }
+}

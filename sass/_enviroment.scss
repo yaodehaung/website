@@ -1,0 +1,29 @@
+.environment{
+  background-color: #FFFFFF;
+  width: 82%;
+  margin: 0 auto;
+  .active{
+    .garden{
+      h2{
+        background-color: #D8E9D3;
+        width: 80%;
+        margin: 0 auto;
+      }
+      .garden-content{
+        width: 80%;
+        margin: 0 auto;
+        .oldman{
+          display: inline-block;
+          width: 24%;
+          height: 40%;
+          img{
+            width: 86%;
+
+          }
+        }
+      }
+
+
+    }
+  }
+}
