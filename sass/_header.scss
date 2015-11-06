@@ -1,0 +1,38 @@
+
+
+
+.contant {
+  background-color: #24671c;
+  width:  80%;
+  margin: 0 auto;
+
+  .header {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    background-color: white;
+    img {
+      width: 60%;
+      height: 70%;
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .contant{
+    width:100% ;
+  }
+}
+
+@media screen and (min-width: 769px)  and (max-width: 992px) {
+  .contant{
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .contant{
+    width: 80%;
+  }
+}
