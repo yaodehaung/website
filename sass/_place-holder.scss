@@ -1,0 +1,32 @@
+.place-holder{
+  background-color: #D8E8D3;
+  width:82%;
+  margin: 0 auto;
+
+  .place{
+    float: left;
+    width: 25%;
+    text-align:center;
+
+
+  }
+  @media screen and (max-width:950px){
+    .place{
+      float: left;
+      width: 90%;
+      text-align: center;
+      margin: 0 5% !important;
+    }
+    .line{
+      border-style: groove;
+      border-width: 0 0 5px 0 !important;
+    }
+  }
+  .line{
+    border-style: groove;
+    border-width: 0 5px 0 0 ;
+  }
+  .clear{
+    clear: both;
+  }
+}
